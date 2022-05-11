@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/global-styles.css">
+    <link rel="stylesheet" href="./Styles/logo.css">
+    <link rel="stylesheet" href="./Styles/body.css">
+    <link rel="stylesheet" href="./Styles/main-container-left.css">
+    <link rel="stylesheet" href="./Styles/main-container-right.css">
+</head>
+
+<header>
+    <div class="logo_container">
+    
+        <div class="logo_image"></div>
+        <div class="logo">NourHaDean Weather Services</div>
+
+    </div>
+
+</header>
+
+<body>
+    <!-- Possible Image loader based off time -->
+    
+    <div class="main-content_container">
+        
+        <div class="weather-image_container" id="weather-image_container">
+            <img src="https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="gif">
+        </div>
+        
+        <div class="weather-info_container" id="weather-info_container">
+            
+            <div class="searchbar" id="searchbar">
+                <img src="https://www.kindacode.com/wp-content/uploads/2020/12/search.png" alt="mag">
+                <input type="text" placeholder="Search...">
+            </div>  
+            
+            <div class="weather_infocontainer">
+                
+                <div class="display_location =" id="display_location">
+                    Location 
+                </div>
+                
+                <div class="display_degrees" id="display_degrees">
+                    20°
+                </div>
+        
+                <div class="display_weathercondition">
+                    Weather Condition
+                    <div class="display_weather-icon" id="display_weather-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/84/84555.png" alt="weather icon">
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="display_time_date" id="display_time_date">
+                Time & Date
+            </div>
+    
+            <div class="weather_scroll">
+                Display various times with weather attached
+            </div>
+            
+            
+        
+        </div>
+
+
+
+    </div>
+    
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

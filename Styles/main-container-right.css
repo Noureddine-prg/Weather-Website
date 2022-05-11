@@ -1,0 +1,15 @@
+.weather-image_container{
+    height: 100%;
+    flex: 1.5;
+    
+}
+
+/* Children of weather image container*/
+.weather-image_container img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 5px;
+    
+}
+/* End section */
