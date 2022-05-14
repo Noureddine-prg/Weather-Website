@@ -37,7 +37,7 @@
             
             <div class="searchbar" id="searchbar">
                 <img src="https://www.kindacode.com/wp-content/uploads/2020/12/search.png" alt="mag">
-                <input type="text" placeholder="Search...">
+                <input type="text" id="userInput"  placeholder="Search...">
             </div>  
             
             <div class="infocontainer">
@@ -50,9 +50,9 @@
                     20°
                 </div>
         
-                <div class="display_weathercondition">
+                <div class="display_weathercondition" id="weatherCondition">
                     Weather Condition
-                    <div class="display_weather-icon" id="display_weather-icon">
+                    <div class="display_weather-icon" id="display_weathericon">
                         <img src="https://cdn-icons-png.flaticon.com/512/84/84555.png" alt="weather icon">
                     </div>
                 </div>
@@ -66,12 +66,10 @@
                 
         </div>
 
-
-
     </div>
     
+    <script src="scripts.js"></script>
 </body>
 
-<script src="scripts.js"></script>
 
 </html>
